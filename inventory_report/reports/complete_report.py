@@ -11,5 +11,4 @@ class CompleteReport(SimpleReport, OrderedDict):
         resultado += "\nProdutos estocados por empresa:\n"
         for key, value in empresas.items():
             resultado += f"- {key}: {value}\n"
-        print(resultado)
         return resultado
